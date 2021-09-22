@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+    font-family: inter, Lexend Deca;
+    color: white;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: white;
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.heading .text-color{
+    color: hsl(277, 64%, 61%);
+}
+
+.background{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+}
+
+.achivements{
+    display: flex;
+}
+
+.num1, .num2, .num3{
+    font-size: 28px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background: hsl(244, 38%, 16%);
+    width: 1150px;
+    border-radius: 10px;
+}
+
+.text-area p{
+    padding-bottom: 60px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+}
+
+.achivements p{
+    padding-right: 55px;
+    font-size: 16px;
+}
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-area{
+    padding-left: 70px;
+}
+
+.attribution{
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+.image-section{
+    background-color:hsl(273, 71%, 49%);
+}
+
+.image{
+    display: block;
+    opacity: .5;
+}
+
+
